@@ -1,0 +1,29 @@
+#Create a housing local good
+#Make three and adjust to pop needs based on employment
+
+#	Make it have different production methods (copy construction sectors production methods, 
+#	wood to iron to steel to arc-welded)
+
+#	Each production method is basically how dense it is per unit
+
+#	Make base demand be 1 employee and their dependants
+
+Make consequences for low-housing in a state
+	
+	You get homelessness (more social spending and higher unrest)
+	Then you get shanty towns (added polution, unrest, taxation capacity, shanty town buildings that are a complementary source of housing goods but they destroy your economy by crashing formal housing demand at the low end)
+	It is one of the most prioritized goods after food
+
+#Make housing take a bunch of construction points to build
+
+Make social housing basically just be either state or coop owned for simplicity's sake
+
+#Create a primary production method for urban centres
+#Create a secondary production for inner suburbs and small towns
+#Create a tertiary production method for outer suburbs (cottage style) and rural areas
+
+#The secondary and tertiary ones increase transportation demand with lower production methods
+
+Allow a law for international ownership private, national private, cooperative, state only
+
+High supply should boost birthrate
