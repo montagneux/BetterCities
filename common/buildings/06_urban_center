@@ -1,7 +1,7 @@
 # URBANIZATION
 
 building_housing = {
-	building_group = bg_housing
+	building_group = bg_urban_housing
 	icon = "gfx/interface/icons/building_icons/housing.dds"
 	city_type = city
 	residence_points_per_level = 0
@@ -14,7 +14,6 @@ building_housing = {
 		pmg_bourg_housing
 		pmg_faubourg_housing
 		pmg_suburban_housing
-		pmg_rural_housing
 	}
 
 	buildable = yes
