@@ -4,6 +4,7 @@ Rural housing
     For working pops
         Produced by subsistance farms or agricultural buildings
         Used by pops employed by these buildings
+        Uses a production method that determines housing development pattern (on land vs rural towns)
     For owning pops
         Produced by manor houses
 
