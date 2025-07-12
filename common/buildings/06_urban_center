@@ -1,8 +1,8 @@
 # URBANIZATION
 
-building_housing = {
-	building_group = bg_urban_housing
-	icon = "gfx/interface/icons/building_icons/housing.dds"
+building_worker_housing = {
+	building_group = bg_worker_housing
+	icon = "gfx/interface/icons/building_icons/worker_housing.dds"
 	city_type = city
 	residence_points_per_level = 0
 
@@ -11,9 +11,9 @@ building_housing = {
 	}
 
 	production_method_groups = {
-		pmg_bourg_housing
-		pmg_faubourg_housing
-		pmg_suburban_housing
+		pmg_verticality_worker_housing
+		pmg_horizontality_worker_housing
+		pmg_ownership_worker_housing
 	}
 
 	buildable = yes
@@ -25,23 +25,33 @@ building_housing = {
 
 	ownership_type = self
 
-	ai_value = {
-		value = 1000
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
 
-		# Need 1 level of Housing everywhere so that people can live
-		if = {
-			limit = {
-				NOR = {
-					has_building = building_housing
-					any_scope_building = {
-						is_building_type = building_housing
-						is_under_construction = yes
-					}
-				}
-			}
-			add = 4000
-		}
+building_bourgeois_housing = {
+	building_group = bg_bourgeois_housing
+	icon = "gfx/interface/icons/building_icons/bourgeois_housing.dds"
+	city_type = city
+	residence_points_per_level = 0
+
+	unlocking_technologies = {
+		enclosure
 	}
+
+	production_method_groups = {
+		pmg_verticality_bourgeois_housing
+		pmg_horizontality_bourgeois_housing
+		pmg_ownership_bourgeois_housing
+	}
+
+	buildable = yes
+	expandable = yes
+	downsizeable = yes
+	can_switch_owner = yes
+
+	required_construction = construction_cost_medium
+
+	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }

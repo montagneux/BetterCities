@@ -8,9 +8,9 @@ Rural housing
         Produced by manor houses
 
 Urban housing
-    For working class pops
+    For working class pops # added worker_housing
         Produced by worker housing buildings
-    For middle and upper class pops
+    For middle and upper class pops # added bourgeois_housing
         Produced by bourgeois housing buildings
 
 Housing buildings don't consume anything
