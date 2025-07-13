@@ -80,6 +80,69 @@ ironclads = {
 # STAPLE #
 ##########
 
+housing_agricultural = {
+	texture = "gfx/interface/icons/goods_icons/housing_agricultural.dds"
+	cost = 30
+	category = staple
+	local = yes
+
+	consumption_tax_cost = 400
+}
+
+housing_mining = {
+	texture = "gfx/interface/icons/goods_icons/housing_mining.dds"
+	cost = 30
+	category = staple
+	local = yes
+
+	consumption_tax_cost = 400
+}
+
+housing_plantation = {
+	texture = "gfx/interface/icons/goods_icons/housing_plantation.dds"
+	cost = 30
+	category = staple
+	local = yes
+
+	consumption_tax_cost = 400
+}
+
+housing_lumber = {
+	texture = "gfx/interface/icons/goods_icons/housing_lumber.dds"
+	cost = 30
+	category = staple
+	local = yes
+
+	consumption_tax_cost = 400
+}
+
+housing_worker = {
+	texture = "gfx/interface/icons/goods_icons/housing_worker.dds"
+	cost = 30
+	category = staple
+	local = yes
+
+	consumption_tax_cost = 200
+}
+
+housing_bourgeois = {
+	texture = "gfx/interface/icons/goods_icons/housing_bourgeois.dds"
+	cost = 30
+	category = staple
+	local = yes
+
+	consumption_tax_cost = 200
+}
+
+housing_manor = {
+	texture = "gfx/interface/icons/goods_icons/housing_manor.dds"
+	cost = 30
+	category = staple
+	local = yes
+
+	consumption_tax_cost = 400
+}
+
 grain = {
 	texture = "gfx/interface/icons/goods_icons/grain.dds"
 	cost = 20
