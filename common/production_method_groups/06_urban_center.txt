@@ -1,4 +1,27 @@
-﻿pmg_amenities = {
+﻿### Housing ###
+
+
+pmg_horizontality_housing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_bourgs 				# walkable
+		pm_faubourgs 			# needs engines for trams
+		pm_rail_suburbs 		# needs more engines for trains
+		pm_sprawl 				# needs automobiles for obvious reasons						# see if i can make this one eat arable land?
+								# each pm adds to the previous one
+	}
+}
+
+pmg_verticality_housing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_low_rise				# makes everyone but workers happy
+		pm_mid_rise				# balance
+		pm_high_rise			# makes workers happy
+	}
+}
+
+pmg_amenities = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_market_stalls

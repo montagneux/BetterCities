@@ -1,4 +1,23 @@
-﻿pm_market_stalls = {
+﻿### Housing ###
+
+
+pm_bourgs
+
+pm_faubourgs
+
+pm_rail_suburbs
+
+pm_sprawl
+
+pm_low_rise
+
+pm_mid_rise
+
+pm_high_rise
+
+
+
+pm_market_stalls = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 
 	building_modifiers = {

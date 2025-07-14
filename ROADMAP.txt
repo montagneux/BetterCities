@@ -19,3 +19,8 @@ Housing buildings don't consume anything
 Housing building size is limited by the amount of different urban transportation services produced in a state (horizontality)
 
 Housing building throughput is limited by technology concerning verticality
+
+# I need to figure out how to get different pop_types to demand different housing types
+# I should probably make housing need in a state depend on urbanisation (1 to 1 with urban centres)
+# Likewise, I should probably make transportation centres be 1 to 1 with urban centres
+# Housing as a good will not work since there's no way to separate pop_type good demand

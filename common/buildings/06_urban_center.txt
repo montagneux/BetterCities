@@ -1,8 +1,8 @@
 # URBANIZATION
 
-building_worker_housing = {
-	building_group = bg_worker_housing
-	icon = "gfx/interface/icons/building_icons/worker_housing.dds"
+building_housing = {
+	building_group = bg_housing
+	icon = "gfx/interface/icons/building_icons/housing.dds"
 	city_type = city
 	residence_points_per_level = 0
 
@@ -11,37 +11,8 @@ building_worker_housing = {
 	}
 
 	production_method_groups = {
-		pmg_verticality_worker_housing
-		pmg_horizontality_worker_housing
-		pmg_ownership_worker_housing
-	}
-
-	buildable = yes
-	expandable = yes
-	downsizeable = yes
-	can_switch_owner = yes
-
-	required_construction = construction_cost_medium
-
-	ownership_type = self
-
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
-}
-
-building_bourgeois_housing = {
-	building_group = bg_bourgeois_housing
-	icon = "gfx/interface/icons/building_icons/bourgeois_housing.dds"
-	city_type = city
-	residence_points_per_level = 0
-
-	unlocking_technologies = {
-		enclosure
-	}
-
-	production_method_groups = {
-		pmg_verticality_bourgeois_housing
-		pmg_horizontality_bourgeois_housing
-		pmg_ownership_bourgeois_housing
+		pmg_verticality_housing
+		pmg_horizontality_housing
 	}
 
 	buildable = yes
