@@ -27,7 +27,7 @@ pm_basic_sanitation = {
 	}
 }
 
-pm_basic_sanitation = {
+pm_advanced_sanitation = {
 	texture = "gfx/interface/icons/production_method_icons/basic_sanitation.dds"
 
 	unlocking_technologies = {
