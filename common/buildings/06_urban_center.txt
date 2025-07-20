@@ -1,0 +1,183 @@
+﻿# URBANIZATION
+
+building_burg = {
+	building_group = bg_housing
+	icon = "gfx/interface/icons/building_icons/burg.dds"
+	city_type = city
+	residence_points_per_level = 0
+
+	unlocking_technologies = {
+		urbanization
+	}
+
+	production_method_groups = {
+		pmg_transit_building_burg
+		pmg_verticality_building_burg
+	}
+
+	buildable = yes
+	expandable = yes
+	downsizeable = yes
+	can_switch_owner = yes
+
+	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_streetcar_suburb = {
+	building_group = bg_housing
+	icon = "gfx/interface/icons/building_icons/faubourg.dds"
+	city_type = city
+	residence_points_per_level = 0
+
+	unlocking_technologies = {
+		urban_planning
+	}
+	
+	production_method_groups = {
+		pmg_transit_building_streetcar_suburb
+		pmg_verticality_building_streetcar_suburb
+	}
+
+	buildable = yes
+	expandable = yes
+	downsizeable = yes
+	can_switch_owner = yes
+
+	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+
+building_railroad_suburb = {
+	building_group = bg_housing
+	icon = "gfx/interface/icons/building_icons/burg.dds"
+	city_type = city
+	residence_points_per_level = 0
+
+	unlocking_technologies = {
+		railways
+	}
+	
+	production_method_groups = {
+		pmg_transit_building_railroad_suburb
+		pmg_verticality_building_railroad_suburb
+	}
+
+	buildable = yes
+	expandable = yes
+	downsizeable = yes
+	can_switch_owner = yes
+
+	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_urban_center = {
+	building_group = bg_service
+	icon = "gfx/interface/icons/building_icons/urban_center.dds"
+	city_type = city
+	residence_points_per_level = 0
+
+	unlocking_technologies = {
+		urbanization
+	}
+
+	production_method_groups = {
+		pmg_sanitation # services and lower mortality
+		pmg_street_lighting
+		pmg_urban_clergy
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	can_switch_owner = no
+
+	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_arts_academy = {
+	building_group = bg_arts
+
+	city_type = city
+
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		romanticism
+	}
+
+	production_method_groups = {
+		pmg_base_building_arts_academy
+		pmg_ownership_building_arts_academy
+		pmg_principle_freedom_of_movement_3
+	}
+
+	icon = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+
+	required_construction = construction_cost_medium
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_power_plant = {
+	building_group = bg_power
+	icon = "gfx/interface/icons/building_icons/power_plant.dds"
+	levels_per_mesh = 5
+
+	city_type = city
+
+	unlocking_technologies = {
+		electrical_generation
+	}
+
+	production_method_groups = {
+		pmg_base_building_power_plant
+	}
+
+	required_construction = construction_cost_medium
+
+	ai_value = {
+		value = 1000
+
+		# Need 1 level of Power Plants everywhere as its a local good and a prerequisite to enabling electricity PMs to begin with
+		if = {
+			limit = {
+				NOR = {
+					has_building = building_power_plant
+					any_scope_building = {
+						is_building_type = building_power_plant
+						is_under_construction = yes
+					}
+				}
+			}
+			add = 4000
+		}
+	}
+
+	possible = {
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned }
+		}
+	}
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
