@@ -26,3 +26,5 @@ Housing building throughput is limited by technology concerning verticality
 # Housing as a good will not work since there's no way to separate pop_type good demand
 
 I want different buildings for each size of city, so burg (max 50), faubourg (max 150), rail suburb (no limit)
+
+Have some flag somewhere that makes the suburbs less productive that the burg but that it can change with tech or year or era idk
