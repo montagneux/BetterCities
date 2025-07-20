@@ -133,6 +133,12 @@ pm_subways_building_burg = {
 		arc_welding
 	}
 
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 40
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 15
@@ -203,6 +209,12 @@ pm_subways_building_streetcar_suburb = {
 		arc_welding
 	}
 
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 20
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 15
@@ -271,6 +283,12 @@ pm_subways_building_railroad_suburb = {
 
 	unlocking_technologies = {
 		arc_welding
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 10
+		}
 	}
 
 	building_modifiers = {
