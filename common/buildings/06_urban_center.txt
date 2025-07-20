@@ -2,7 +2,7 @@
 
 building_burg = {
 	building_group = bg_city
-	icon = "gfx/interface/icons/building_icons/burg.dds"
+	icon = "gfx/interface/icons/building_icons/building_burg.dds"
 	city_type = city
 	residence_points_per_level = 0
 
@@ -35,7 +35,7 @@ building_burg = {
 
 building_streetcar_suburb = {
 	building_group = bg_city
-	icon = "gfx/interface/icons/building_icons/faubourg.dds"
+	icon = "gfx/interface/icons/building_icons/building_streetcar_suburb.dds"
 	city_type = city
 	residence_points_per_level = 0
 
@@ -69,7 +69,7 @@ building_streetcar_suburb = {
 
 building_railroad_suburb = {
 	building_group = bg_city
-	icon = "gfx/interface/icons/building_icons/burg.dds"
+	icon = "gfx/interface/icons/building_icons/building_railroad_suburb.dds"
 	city_type = city
 	residence_points_per_level = 0
 
