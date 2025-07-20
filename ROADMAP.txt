@@ -30,3 +30,7 @@ I want different buildings for each size of city, so burg (max 50), faubourg (ma
 Have some flag somewhere that makes the suburbs less productive that the burg but that it can change with tech or year or era idk
 
 in save file, urban centre sizes are from line 4636624 to 4721445
+
+The event scopes are a pain in the ass because there is no documentation online.
+
+I'll go ahead with ai weights and max sizes

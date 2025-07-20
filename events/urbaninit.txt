@@ -17,3 +17,7 @@ immediate = {
         }
     }
 }
+
+# THE SCOPE ISNT REAL
+# for_each_state isnt real
+# no clue about the levels.
