@@ -10,7 +10,7 @@ urbanization = {
 		state_infrastructure_from_population_add = 2
 		state_infrastructure_from_population_max_add = 40
 		state_building_construction_sector_max_level_add = 10
-        state_building_burg_max_level_add = 10
+        building_burg_max_level_add = 10
 		country_max_weekly_construction_progress_add = 10
 	}
 
@@ -28,7 +28,7 @@ urban_planning = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
-        state_building_burg_max_level_add = 20
+        building_burg_max_level_add = 20
 		country_max_weekly_construction_progress_add = 5
 	}
 

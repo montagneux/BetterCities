@@ -242,7 +242,7 @@ watertube_boiler = {
 	}
 
     modifier = {
-        state_building_streetcar_suburb_max_level_add = 30
+        building_streetcar_suburb_max_level_add = 30
     }
 
 	ai_weight = {
@@ -262,7 +262,7 @@ atmospheric_engine = {
 	}
 
     modifier = {
-        state_building_streetcar_suburb_max_level_add = 30
+        building_streetcar_suburb_max_level_add = 30
     }
 
 	ai_weight = {
@@ -305,7 +305,7 @@ railways = {
 	}
 
     modifier = {
-        state_building_streetcar_suburb_max_level_add = 30
+        building_streetcar_suburb_max_level_add = 30
     }
 
 	ai_weight = {
