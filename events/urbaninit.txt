@@ -1,0 +1,19 @@
+namespace = urbaninit
+
+trigger = {
+    game_datedate = 1836.1.1
+}
+
+immediate = {
+    for_each_state = {
+        limit = { has_building = building_urban_center }
+        create_building = {
+            building = building_burg
+            level = {
+                count = {
+                    buildings = { building = building_urban_center }
+                }
+            }
+        }
+    }
+}
