@@ -164,7 +164,7 @@ pm_steam_trams_building_streetcar_suburb = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 1
-			goods_output_transportation_add = 8
+			goods_output_transportation_add = 4
 		}
 
 		level_scaled = {
@@ -185,7 +185,7 @@ pm_electric_trams_building_streetcar_suburb = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 2
-			goods_output_transportation_add = 8
+			goods_output_transportation_add = 4
 		}
 
 		level_scaled = {
@@ -207,7 +207,7 @@ pm_subways_building_streetcar_suburb = {
 		workforce_scaled = {
 			goods_input_electricity_add = 15
 			goods_input_engines_add = 25
-			goods_output_transportation_add = 60
+			goods_output_transportation_add = 30
 		}
 
 		level_scaled = {
@@ -234,7 +234,7 @@ pm_steam_trams_building_railroad_suburb = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 1
-			goods_output_transportation_add = 8
+			goods_output_transportation_add = 2
 		}
 
 		level_scaled = {
@@ -255,7 +255,7 @@ pm_electric_trams_building_railroad_suburb = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 2
-			goods_output_transportation_add = 8
+			goods_output_transportation_add = 2
 		}
 
 		level_scaled = {
@@ -277,7 +277,7 @@ pm_subways_building_railroad_suburb = {
 		workforce_scaled = {
 			goods_input_electricity_add = 15
 			goods_input_engines_add = 25
-			goods_output_transportation_add = 60
+			goods_output_transportation_add = 15
 		}
 
 		level_scaled = {
@@ -374,7 +374,7 @@ pm_market_stalls_building_streetcar_suburb = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_services_add = 15
+			goods_output_services_add = 7.5
 		}
 
 		level_scaled = {
@@ -394,7 +394,7 @@ pm_market_squares_building_streetcar_suburb = {
 		workforce_scaled = {
 			goods_input_wood_add = 1
 			goods_input_glass_add = 1
-			goods_output_services_add = 20
+			goods_output_services_add = 10
 		}
 
 		level_scaled = {
@@ -415,7 +415,7 @@ pm_covered_markets_building_streetcar_suburb = {
 		workforce_scaled = {
 			goods_input_glass_add = 2
 			goods_input_steel_add = 1
-			goods_output_services_add = 25
+			goods_output_services_add = 12.5
 		}
 
 		level_scaled = {
@@ -437,7 +437,7 @@ pm_arcades_building_streetcar_suburb = {
 			goods_input_glass_add = 2
 			goods_input_steel_add = 2
 			goods_input_electricity_add = 1
-			goods_output_services_add = 30
+			goods_output_services_add = 15
 		}
 
 		level_scaled = {
@@ -455,7 +455,7 @@ pm_market_stalls_building_railroad_suburb = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_services_add = 15
+			goods_output_services_add = 3.75
 		}
 
 		level_scaled = {
@@ -475,7 +475,7 @@ pm_market_squares_building_railroad_suburb = {
 		workforce_scaled = {
 			goods_input_wood_add = 1
 			goods_input_glass_add = 1
-			goods_output_services_add = 20
+			goods_output_services_add = 5
 		}
 
 		level_scaled = {
@@ -496,7 +496,7 @@ pm_covered_markets_building_railroad_suburb = {
 		workforce_scaled = {
 			goods_input_glass_add = 2
 			goods_input_steel_add = 1
-			goods_output_services_add = 25
+			goods_output_services_add = 6.25
 		}
 
 		level_scaled = {
@@ -518,7 +518,7 @@ pm_arcades_building_railroad_suburb = {
 			goods_input_glass_add = 2
 			goods_input_steel_add = 2
 			goods_input_electricity_add = 1
-			goods_output_services_add = 30
+			goods_output_services_add = 7.5
 		}
 
 		level_scaled = {
