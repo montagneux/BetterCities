@@ -557,7 +557,8 @@ bg_urban_facilities = {
 bg_city ={
 	parent_group = bg_urban_facilities
 	urbanization = 0
-	stateregion_max_level = no
+	stateregion_max_level = yes
+	lens = development
 }
 
 bg_arts = {
