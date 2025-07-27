@@ -493,6 +493,15 @@
 	s:STATE_CUNDINAMARCA={
 		region_state:CLM={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:CLM"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -738,6 +747,15 @@
 	s:STATE_LA_PAZ={
 		region_state:BOL={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BOL"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -982,6 +1000,15 @@
 	}
 	s:STATE_LIMA={
 		region_state:NPU={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:NPU"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1380,6 +1407,15 @@
 	s:STATE_BAJO_PARAGUAY={
 		region_state:PRG={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:PRG"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_arms_industry"
 				add_ownership={
 					country={
@@ -1500,6 +1536,15 @@
 	}
 	s:STATE_BUENOS_AIRES={
 		region_state:ARG={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:ARG"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1775,6 +1820,15 @@
 	}
 	s:STATE_SANTIAGO={
 		region_state:CHL={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:CHL"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2322,6 +2376,15 @@
 	s:STATE_SAO_PAULO={
 		region_state:BRZ={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BRZ"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
@@ -2442,6 +2505,15 @@
 	}
 	s:STATE_MINAS_GERAIS={
 		region_state:BRZ={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BRZ"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2571,6 +2643,15 @@
 	}
 	s:STATE_RIO_DE_JANEIRO={
 		region_state:BRZ={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BRZ"
+						levels=4
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2729,6 +2810,15 @@
 	}
 	s:STATE_BAHIA={
 		region_state:BRZ={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BRZ"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -3078,6 +3168,15 @@
 	}
 	s:STATE_PERNAMBUCO={
 		region_state:BRZ={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BRZ"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={

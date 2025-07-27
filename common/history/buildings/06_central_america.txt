@@ -776,6 +776,15 @@
 	s:STATE_CUBA={
 		region_state:CUB={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:CUB"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={

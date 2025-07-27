@@ -800,6 +800,15 @@
 	s:STATE_KABUL={
 		region_state:KAB={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:KAB"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={

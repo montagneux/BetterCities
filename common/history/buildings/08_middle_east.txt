@@ -30,6 +30,15 @@
 	s:STATE_OMAN={
 		region_state:OMA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:OMA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -451,6 +460,15 @@
 	}
 	s:STATE_SYRIA={
 		region_state:EGY={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1157,6 +1175,15 @@
 	s:STATE_IRAKAJEMI={
 		region_state:PER={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:PER"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_textile_mills"
 				add_ownership={
 					building={
@@ -1210,6 +1237,15 @@
 	}
 	s:STATE_TABRIZ={
 		region_state:PER={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:PER"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1368,6 +1404,15 @@
 	s:STATE_HUDAVENDIGAR={
 		region_state:TUR={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=2
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1481,6 +1526,15 @@
 	}
 	s:STATE_AYDIN={
 		region_state:TUR={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
@@ -1921,6 +1975,15 @@
 	}
 	s:STATE_ANKARA={
 		region_state:TUR={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={

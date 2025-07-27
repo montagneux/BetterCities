@@ -2,6 +2,15 @@
 	s:STATE_DISTRICT_OF_COLUMBIA={
 		region_state:USA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -87,6 +96,15 @@
 	}
 	s:STATE_NEW_YORK={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=8
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -294,6 +312,15 @@
 	}
 	s:STATE_VIRGINIA={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -694,6 +721,15 @@
 	s:STATE_INDIANA={
 		region_state:USA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -802,6 +838,15 @@
 	}
 	s:STATE_OHIO={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -938,6 +983,15 @@
 	s:STATE_KENTUCKY={
 		region_state:USA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1047,6 +1101,15 @@
 	}
 	s:STATE_TENNESSEE={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1200,6 +1263,15 @@
 	s:STATE_ALABAMA={
 		region_state:USA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1287,6 +1359,15 @@
 	}
 	s:STATE_GEORGIA={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1415,6 +1496,15 @@
 	s:STATE_MARYLAND={
 		region_state:USA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1533,6 +1623,15 @@
 	}
 	s:STATE_PENNSYLVANIA={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=6
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1776,6 +1875,15 @@
 	s:STATE_NEW_JERSEY={
 		region_state:USA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
@@ -2000,6 +2108,15 @@
 	}
 	s:STATE_MASSACHUSETTS={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=3
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2248,6 +2365,15 @@
 	s:STATE_MAINE={
 		region_state:USA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -2324,6 +2450,15 @@
 	}
 	s:STATE_NORTH_CAROLINA={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2429,6 +2564,15 @@
 	}
 	s:STATE_SOUTH_CAROLINA={
 		region_state:USA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:USA"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2632,6 +2776,15 @@
 		}
 		region_state:ONT={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:ONT"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
@@ -2826,6 +2979,15 @@
 	}
 	s:STATE_QUEBEC={
 		region_state:QUE={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:QUE"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
@@ -3239,6 +3401,15 @@
 	s:STATE_BAJIO={
 		region_state:MEX={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:MEX"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -3350,6 +3521,15 @@
 	}
 	s:STATE_MEXICO={
 		region_state:MEX={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:MEX"
+						levels=3
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -3707,6 +3887,15 @@
 	}
 	s:STATE_JALISCO={
 		region_state:MEX={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:MEX"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={

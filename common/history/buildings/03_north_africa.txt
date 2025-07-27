@@ -2,6 +2,15 @@
 	s:STATE_LOWER_EGYPT={
 		region_state:EGY={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=6
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -237,6 +246,15 @@
 	}
 	s:STATE_MIDDLE_EGYPT={
 		region_state:EGY={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -588,6 +606,15 @@
 	}
 	s:STATE_FEZ={
 		region_state:MOR={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:MOR"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
