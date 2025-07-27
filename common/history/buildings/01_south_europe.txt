@@ -2,6 +2,15 @@
 	s:STATE_LOMBARDY={
 		region_state:AUS={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:AUS"
+						levels=3
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -119,6 +128,15 @@
 	}
 	s:STATE_PIEDMONT={
 		region_state:SAR={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SAR"
+						levels=4
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -318,6 +336,15 @@
 	s:STATE_SARDINIA={
 		region_state:SAR={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SAR"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
@@ -502,6 +529,15 @@
 	}
 	s:STATE_CAMPANIA={
 		region_state:SIC={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SIC"
+						levels=4
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -715,6 +751,15 @@
 	s:STATE_CALABRIA={
 		region_state:SIC={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SIC"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_food_industry"
 				add_ownership={
 					building={
@@ -876,6 +921,15 @@
 	}
 	s:STATE_ABRUZZO={
 		region_state:SIC={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SIC"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
@@ -1161,6 +1215,15 @@
 	s:STATE_TUSCANY={
 		region_state:TUS={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUS"
+						levels=3
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1414,6 +1477,15 @@
 	s:STATE_LAZIO={
 		region_state:PAP={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:PAP"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1519,6 +1591,15 @@
 	}
 	s:STATE_VENETIA={
 		region_state:AUS={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:AUS"
+						levels=5
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1684,6 +1765,15 @@
 	s:STATE_SICILY={
 		region_state:SIC={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SIC"
+						levels=2
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1762,6 +1852,15 @@
 	s:STATE_TOLEDO={
 		region_state:SPA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SPA"
+						levels=3
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -1839,6 +1938,15 @@
 	}
 	s:STATE_GALICIA={
 		region_state:SPA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SPA"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_glassworks"
 				add_ownership={
@@ -1991,6 +2099,15 @@
 	s:STATE_CASTILE={
 		region_state:SPA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SPA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -2094,6 +2211,15 @@
 	}
 	s:STATE_NAVARRA={
 		region_state:SPA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SPA"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2240,6 +2366,15 @@
 	s:STATE_ARAGON={
 		region_state:SPA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SPA"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
@@ -2320,6 +2455,15 @@
 	}
 	s:STATE_CATALONIA={
 		region_state:SPA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SPA"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2482,6 +2626,15 @@
 	}
 	s:STATE_ANDALUSIA={
 		region_state:SPA={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SPA"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -2720,6 +2873,15 @@
 	s:STATE_VALENCIA={
 		region_state:SPA={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:SPA"
+						levels=3
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -2873,6 +3035,15 @@
 	s:STATE_BEIRA={
 		region_state:POR={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:POR"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -2982,6 +3153,15 @@
 	}
 	s:STATE_ESTREMADURA={
 		region_state:POR={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:POR"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -3335,6 +3515,15 @@
 	s:STATE_EASTERN_THRACE={
 		region_state:TUR={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=5
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -3603,6 +3792,15 @@
 	s:STATE_BOSNIA={
 		region_state:TUR={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
 					building={
@@ -3687,6 +3885,15 @@
 	s:STATE_NORTHERN_THRACE={
 		region_state:TUR={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
 					building={
@@ -3755,6 +3962,15 @@
 	}
 	s:STATE_BULGARIA={
 		region_state:TUR={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
@@ -3902,6 +4118,15 @@
 	s:STATE_CROATIA={
 		region_state:AUS={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:AUS"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -4045,6 +4270,15 @@
 	}
 	s:STATE_ISTRIA={
 		region_state:AUS={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:AUS"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
@@ -4329,6 +4563,15 @@
 	s:STATE_ATTICA={
 		region_state:GRE={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:GRE"
+						levels=1
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -4464,6 +4707,15 @@
 	}
 	s:STATE_THESSALIA={
 		region_state:TUR={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -4649,6 +4901,15 @@
 	}
 	s:STATE_WESTERN_THRACE={
 		region_state:TUR={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:TUR"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
