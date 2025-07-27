@@ -31,7 +31,7 @@ pm_advanced_sanitation = {
 	texture = "gfx/interface/icons/production_method_icons/basic_sanitation.dds"
 
 	unlocking_technologies = {
-		modern_sewerage
+		malaria_prevention
 	}
 
 	state_modifiers = {
