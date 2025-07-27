@@ -1,6 +1,15 @@
 ﻿BUILDINGS= {
 	s:STATE_BIHAR= {
 		region_state:BIC = {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=2
+					}
+				}
+			}
 			create_building = {
 				building = "building_arms_industry"
 				add_ownership = {
@@ -108,6 +117,15 @@
 	}
 	s:STATE_WEST_BENGAL= {
 		region_state:BIC = {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=9
+					}
+				}
+			}
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
@@ -378,6 +396,15 @@
 	}
 	s:STATE_EAST_BENGAL= {
 		region_state:BIC = {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=2
+					}
+				}
+			}
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
@@ -804,6 +831,15 @@
 	}
 	s:STATE_AGRA= {
 		region_state:BIC = {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=3
+					}
+				}
+			}
 			create_building = {
 				building = "building_taj_mahal"
 				level=1
@@ -931,6 +967,15 @@
 	}
 	s:STATE_GUJARAT= {
 		region_state:BIC = {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=1
+					}
+				}
+			}
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
@@ -1434,6 +1479,15 @@
 	}
 	s:STATE_PUNJAB= {
 		region_state:PAN= {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:PAN"
+						levels=6
+					}
+				}
+			}
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
@@ -1616,6 +1670,15 @@
 	}
 	s:STATE_HILL_PUNJAB= {
 		region_state:PAN= {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:PAN"
+						levels=1
+					}
+				}
+			}
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
@@ -1696,6 +1759,15 @@
 	}
 	s:STATE_CENTRAL_PROVINCES= {
 		region_state:NAG= {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:NAG"
+						levels=1
+					}
+				}
+			}
 			create_building = {
 				building = "building_textile_mills"
 				add_ownership = {
@@ -1778,6 +1850,15 @@
 			}
 		}
 		region_state:BIC = {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=3
+					}
+				}
+			}
 			create_building = {
 				building = "building_cotton_plantation"
 				add_ownership = {
@@ -2287,6 +2368,15 @@
 	}
 	s:STATE_MYSORE= {
 		region_state:MYS= {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:MYS"
+						levels=1
+					}
+				}
+			}
 			create_building = {
 				building = "building_textile_mills"
 				add_ownership = {
@@ -2661,6 +2751,15 @@
 	}
 	s:STATE_HYDERABAD= {
 		region_state:HYD= {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:HYD"
+						levels=2
+					}
+				}
+			}
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
@@ -2739,6 +2838,15 @@
 	}
 	s:STATE_BOMBAY= {
 		region_state:POR= {
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:BIC"
+						levels=5
+					}
+				}
+			}
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }

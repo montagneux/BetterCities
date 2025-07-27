@@ -454,6 +454,15 @@
 	s:STATE_WEST_JAVA={
 		region_state:DEI={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:DEI"
+						levels=3
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -643,6 +652,15 @@
 	s:STATE_EAST_JAVA={
 		region_state:DEI={
 			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:DEI"
+						levels=2
+					}
+				}
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -778,6 +796,15 @@
 	}
 	s:STATE_CENTRAL_JAVA={
 		region_state:DEI={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:DEI"
+						levels=1
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -1632,6 +1659,15 @@
 	}
 	s:STATE_LUZON={
 		region_state:PHI={
+			create_building={
+				building="building_burg"
+				add_ownership={
+					country={
+						country="c:PHI"
+						levels=2
+					}
+				}
+			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
